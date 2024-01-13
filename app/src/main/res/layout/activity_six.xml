@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".oneActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Classic Hash Browns"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="283dp"
+                app:srcCompat="@drawable/classic_hash_browns" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:text="Ingredients-\n\n1. 2 russet potatoes, peeled\n2. 3 tablespoons clarified butter\n3. 1 pinch cayenne pepper, or to taste\n4.1 pinch paprika, or to taste\n5. salt and ground black pepper to taste"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Steps-\n\nStep 1-Shred potatoes into a large bowl filled with cold water. Stir until water is cloudy; drain and cover potatoes again with fresh cold water. Stir again to dissolve excess starch. Drain potatoes well, pat dry with paper towels, and squeeze out any excess moisture.\nStep 2-Heat clarified butter in a large nonstick pan over medium heat. Sprinkle shredded potatoes into hot butter in an even layer; season with cayenne pepper, paprika, salt, and black pepper.\nStep 3-Cook potatoes until a brown crust forms on the bottom, about 5 minutes. Flip or stir and continue to cook until potatoes are browned and crusty all over, about 5 more minutes."
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

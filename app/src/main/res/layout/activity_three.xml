@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".oneActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="French Toast"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="283dp"
+                app:srcCompat="@drawable/french_toast" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:text="Ingredients-\n\n1. ⅔ cup milk\n2. 2 large eggs\n3. 1 teaspoon vanilla extract (Optional)\n4. ¼ teaspoon ground cinnamon (Optional)\n5. salt to taste\n6. 6 thick slices bread\n7. 1 tablespoon unsalted butter, or more as needed"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Steps-\n\nStep 1-Gather all ingredients.\nStep 2-Whisk milk, eggs, vanilla, cinnamon, and salt together in a shallow bowl.\nStep 3-Lightly butter a griddle or skillet and heat over medium-high heat.\nStep 4-Dunk bread in the egg mixture, soaking both sides.\nStep 5-Transfer to the hot skillet and cook until golden, 3 to 4 minutes per side.\nStep 6-Serve hot.\n"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

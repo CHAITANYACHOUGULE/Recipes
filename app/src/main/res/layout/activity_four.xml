@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".oneActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="French Fries"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="283dp"
+                app:srcCompat="@drawable/fries" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:text="Ingredients-\n\n1. 2 cups warm water\n2. ⅓ cup white sugar\n3. 2 large russet potatoes - peeled, and sliced into 1/4 inch strips\n4. 6 cups vegetable oil for frying\n5. salt to taste"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Steps-\n\nStep 1-Stir together warm water and sugar in a medium bowl. Soak potatoes in water mixture for 15 minutes. Remove potatoes from water and dry thoroughly on paper towels.\nStep 2-Heat oil in a deep-fryer to 375 degrees F (190 degrees C).\nStep 3-Cook potatoes in hot oil until golden, 5 to 6 minutes. Drain on paper towels and season with salt."
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

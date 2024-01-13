@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".oneActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Broccoli Chicken Casserole"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="283dp"
+                app:srcCompat="@drawable/broccoli_chicken_casserole" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:text="Ingredients-\n\n1. 4 (5 ounce) skinless, boneless chicken breast halves\n2. 1 (10.5 ounce) can condensed cream of mushroom soup\n3. 1 tablespoon mayonnaise\n4. 1 pound broccoli florets, cooked\n5. 1 cup shredded Cheddar cheese\n6. 1 cup dry stuffing mix"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Steps-\n\nStep 1-Gather all ingredients.
+\nStep 2-Preheat oven to 350 degrees F (175 degrees C).
+\nStep 3-Place chicken breasts in a large pot and add enough water to completely cover the chicken in liquid; bring to a gentle simmer. Cover tightly with a lid and cook until chicken is no longer pink in the center, about 15 minutes.
+\nStep 4-Remove chicken from the pot and cut into bite-sized pieces when cool enough to handle.
+\nStep 5-Mix together condensed soup and mayonnaise in a bowl.
+\nStep 6-Layer chicken in a 9x13-inch baking dish. Layer cooked broccoli over top, then soup mixture, and finally Cheddar cheese.
+\nStep 7-Sprinkle dry stuffing mix over top.
+\nStep 8-Bake in the preheated oven until bubbly and cheese has melted, 25 to 30 minutes.
+\nStep 9-Serve hot and enjoy!"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

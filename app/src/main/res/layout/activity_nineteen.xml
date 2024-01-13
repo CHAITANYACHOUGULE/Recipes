@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".oneActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Chicken Milanese"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="283dp"
+                app:srcCompat="@drawable/chicken_milanese" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:text="Ingredients-\n\n1. 2 large eggs
+
+\n2. kosher salt and ground black pepper to taste
+
+\n3. ¾ cup all-purpose flour
+
+\n4. 1 cup Italian seasoned bread crumbs
+
+\n5. 2 skinless, boneless chicken breast halves, thinly sliced
+
+\n6. ¼ cup vegetable oil for frying
+
+\n7. 1 lemon, cut into wedges
+"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Steps-\n\nStep 1-Preheat the oven to 200 degrees F (95 degrees C).
+\nStep 2-Beat eggs with salt and pepper in a shallow dish. Spread flour in another dish and bread crumbs in a third dish.
+\nStep 3-Working with one piece at a time, gently press chicken into flour to coat and shake off any excess. Dip into beaten eggs, then press into bread crumbs. Gently toss between your hands so excess bread crumbs can fall away. Place breaded chicken onto a plate while breading the rest; do not stack.
+\nStep 4-Heat vegetable oil in a large skillet over medium heat. Pan-fry chicken in batches of 2 or 3 pieces until golden brown and no longer pink in the center, 2 to 4 minutes per side. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C). Transfer cooked chicken to a baking sheet and keep warm in the preheated oven while cooking remaining chicken.
+\nStep 5-Serve with lemon wedges."
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

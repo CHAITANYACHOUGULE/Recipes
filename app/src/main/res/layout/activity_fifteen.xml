@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".oneActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Quick Chicken Piccata"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="283dp"
+                app:srcCompat="@drawable/piccata" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:text="Ingredients-\n\n1. 4 skinless, boneless chicken breast halves\n2. cayenne pepper to taste\n3. salt and ground black pepper to taste\n4. all-purpose flour for dredging\n5. 2 tablespoons olive oil\n6. 1 tablespoon capers, drained\n7. ½ cup white wine\n8. ¼ cup fresh lemon juice\n9. ¼ cup water\n10. 3 tablespoons cold unsalted butter, cut in 1/4-inch slices\n11. 2 tablespoons chopped fresh Italian parsley"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Steps-\n\nStep 1-Place chicken breasts between 2 sheets of heavy plastic on a solid, level surface. Firmly pound chicken breasts with the smooth side of a meat mallet to a 1/2-inch thickness.
+\nStep 2-Season both sides of chicken breasts with cayenne, salt, and black pepper; dredge lightly in flour and shake off any excess.
+\nStep 3-Heat olive oil in a skillet over medium-high heat. Place chicken in the pan, reduce heat to medium, and cook until browned and cooked through, about 5 minutes per side; transfer to a plate.
+\nStep 4-Cook capers in reserved oil, smashing them lightly to release brine, until warmed through, about 30 seconds. Pour white wine into the skillet and bring to a boil while scraping the browned bits of food off the bottom of the pan with a wooden spoon. Cook until reduced by half, about 2 minutes.
+\nStep 5-Stir lemon juice, water, and butter into the reduced wine mixture; cook and stir continuously to form a thick sauce, about 2 minutes. Reduce heat to low and stir parsley through the sauce.
+\nStep 6-Return chicken breasts to the pan and cook until heated through, 1 to 2 minutes. Serve with sauce spooned over the top."
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

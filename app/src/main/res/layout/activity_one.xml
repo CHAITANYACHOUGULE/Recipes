@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".oneActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:text="Air fryer waffle egg in a hole"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="283dp"
+                    app:srcCompat="@drawable/one" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20dp"
+                    android:text="Ingredients-\n\n1.1 frozen waffle\n2.1 large egg\n3.salt and pepper to taste\n4.2 tablespoons shredded cheese\n5.maple syrup to taste
+                    "
+                    />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Steps-\n\nStep 1-Preheat the air fryer to 350 degrees F (175 degrees C).\n
+Step 2-Cut a hole in the center of the frozen waffle using the rim of a cup or glass (about 2 to 3 inches in diameter). Move waffle to a square of parchment paper, then carefully place the parchment paper into the preheated air fryer, along with the small center waffle.
+\nStep 3-Crack egg directly into the center of waffle hole; season with salt and pepper to taste. Close the lid and cook until the white of the egg has started to set, about 5 to 6 minutes.
+\nStep 4-Remove small center waffle from the air fryer. Sprinkle shredded cheese onto egg waffle, and cook until the cheese is melted and egg white is completely set, about 1 to 2 minutes.
+\nStep 5-Transfer egg waffle onto a plate; drizzle with maple syrup and serve immediately."
+                    android:layout_marginTop="20dp"
+                    android:textSize="20dp"/>
+
+
+            </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
+
+

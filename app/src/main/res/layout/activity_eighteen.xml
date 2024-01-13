@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".oneActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Garlic Brown Sugar Chicken Thighs"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="283dp"
+                app:srcCompat="@drawable/garlic_brown_sugar_chicken_thighs" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:text="Ingredients-\n\n1. 8 (5 ounce) bone-in, skin-on chicken thighs
+\n2. salt and ground black pepper to taste
+
+\n3. 3 tablespoons unsalted butter, divided
+
+\n4. 4 cloves garlic, minced
+
+\n5. ¼ cup packed brown sugar
+
+\n6. 1 tablespoon honey
+
+\n7. ½ teaspoon dried oregano
+
+\n8. ¼ teaspoon dried thyme
+
+\n9. ¼ teaspoon dried basil"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Steps-\n\nStep 1-Gather all ingredients.
+\nStep 2-Preheat the oven to 400 degrees F (200 degrees C).
+\nStep 3-Season chicken thighs with salt and pepper.
+\nStep 4-Melt 2 tablespoons butter in a large oven-proof skillet over medium-high heat. Add chicken, skin-side down, and sear until brown, 2 to 3 minutes per side. Remove chicken to a plate.
+\nStep 5-Melt remaining 1 tablespoon butter in the skillet, stirring to loosen any browned bits on the bottom. Add garlic; cook and stir until fragrant, about 30 seconds. Stir in brown sugar, honey, oregano, thyme, and basil until well combined. Turn off the heat and return chicken to the skillet, skin-side down.
+\nStep 6-Roast in the preheated oven until chicken is no longer pink at the bone and the juices run clear, 25 to 40 minutes. An instant-read thermometer inserted near the bone should read 165 degrees F (74 degrees C).
+\nStep 7-Drizzle pan sauce over chicken thighs when serving."
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
